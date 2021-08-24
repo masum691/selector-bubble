@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>queary selector</title>
+    <style>
+        .player-name{
+            color: darkmagenta;
+            font-family: tahoma;
+        }
+        .player:first-child{
+            background-color: lime;
+            box-shadow: 12px, 12px, 30px yellow;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Players Stats</h1>
+    </header>
+    <main>
+        <section id="players">
+            <div class="player">
+                <h4 class="player-name">Player - 1</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ut eligendi tenetur fugit hic veritatis illo, itaque provident, doloribus, nemo at nostrum repudiandae a vero officia incidunt excepturi. Optio, est impedit? Unde.</p>
+            </div>
+            <div class="player">
+                <h4 class="player-name">Player - 2</h4>
+                <p>A, nesciunt. Nisi repellat veniam eos excepturi voluptatum vero tempore dicta minus eligendi quidem explicabo ad ab expedita necessitatibus dolore, quisquam ducimus obcaecati suscipit nihil ipsum blanditiis dolorum rem sunt beatae! Ex.</p>
+            </div>
+            <div class="player">
+                <h4 class="player-name">Player - 3</h4>
+                <p>Beatae aliquam illo recusandae enim dolore temporibus sapiente excepturi dolorem voluptas, qui quisquam et eius rerum sit reprehenderit est impedit officiis? Suscipit quod hic natus repellendus consectetur doloribus voluptas tempora illum animi?</p>
+            </div>
+            <div class="player">
+                <h4 class="player-name">Player - 4</h4>
+                <p>Ipsa qui nihil ad! Veritatis nesciunt facilis ea fugit doloribus similique iure cumque at officiis eveniet corrupti fugiat sapiente quam ratione accusamus velit illum minima maxime unde nostrum, eum nobis excepturi. Nesciunt.</p>
+            </div>
+        </section>
+        <button onclick="addPlayer()" >Add Player</button>
+    </main>
+
+
+    <!-- js link -->
+    <script src="js/selector.js"></script>
+</body>
+</html>
